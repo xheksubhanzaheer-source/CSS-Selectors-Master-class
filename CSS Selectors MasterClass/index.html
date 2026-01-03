@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors </title>
+    <style>
+        /*ELement Selector  */
+        div{
+            background-color: rgb(118, 253, 7);
+        }
+        .red{
+            background-color: red;
+        }
+        #green{
+            background-color: green;
+        }
+        div>p{
+            background-color: aquamarine;
+            color: rgb(92, 92, 30);
+        }
+        *{ margin:0;
+        padding:0;}
+        }
+        a:visited{
+            color: yellow;
+        }
+        a:hover{
+            color: rgb(255, 251, 0);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        I am a 
+        <p>Hello i am a div child</p>div
+</div>
+
+<div class="red">
+    I am another div 
+</div>
+
+<div id="green">
+I am also a div
+</div>
+<a href="gttps://www.google.com">Go To Google</a>
+</body>
+</html>
